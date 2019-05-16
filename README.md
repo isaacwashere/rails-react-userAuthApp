@@ -32,6 +32,10 @@ You must be in the correct folder for this to work
 
 > press enter
 
+3. Open in your browser
+
+> opens at http://localhost:3000 (may open automatically)
+
 
 ## Abilities & Features
 
