@@ -22,7 +22,6 @@ class SessionsController < ApplicationController
         logged_in: true,
         user: user #pass back the entire user that you have in the database and you can show/use anything
       }
-    
       #if user not able to log in successfully
       #status 401 is the unauthorized code, the universal HTTP code want to use if a user is not authenticated
     else 

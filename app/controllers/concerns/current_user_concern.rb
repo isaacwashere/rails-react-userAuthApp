@@ -14,6 +14,7 @@ module CurrentUserConcern
     # only has to check to see if there is a current user 
     if session[:user_id]
       @current_user = User.find(session[:user_id])
+    end
   end 
 
 end 
