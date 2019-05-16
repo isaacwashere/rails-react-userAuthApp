@@ -10,11 +10,11 @@ You must be in the correct folder for this to work
 
 #### Server/Ruby on Rails Backend
 
-1. Navigate to Terminal
+1. Navigate to Terminal:
 
 > open "auth_app-be" directory in your Terminal
 
-2. Start the server:
+2. Start the Rails server:
 
 > type rails s
 
@@ -22,19 +22,19 @@ You must be in the correct folder for this to work
 
 #### Client/ReactJS Frontend
 
-1. Navigate to a Seperate Terminal
+1. Navigate to a Seperate Terminal:
 
 > open "reactjs-frontend" directory and then naviagate to "react-authFrontEnd" folder in your Terminal
 
-2. Start the ReactJS client
+2. Start the ReactJS client:
 
 > type "npm run start"
 
 > press enter
 
-3. Open in your browser
+3. View/Use in your browser:
 
-> opens at "http://localhost:3000" (may open automatically)
+>  at localhost:3000 in your browser (may open automatically)
 
 
 ## Abilities & Features
