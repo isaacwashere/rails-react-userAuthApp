@@ -7,6 +7,35 @@
 README.md
 Notes.txt
 
+#################  Front End ###########################
+/reactjs-frontend/react-authFrontEnd/node_modules
+/reactjs-frontend/react-authFrontEnd/Procfile
+/reactjs-frontend/react-authFrontEnd/README.md
+/reactjs-frontend/react-authFrontEnd/static/assets/README.md
+
+#testing 
+/reactjs-frontend/react-authFrontEnd/coverage
+
+#Dependencies
+/reactjs-frontend/react-authFrontEnd/.pnp
+/reactjs-frontend/react-authFrontEnd/.pnp.js
+
+# Production
+/reactjs-frontend/react-authFrontEnd/build
+
+# Misc
+/reactjs-frontend/react-authFrontEnd/.DS_Store
+/reactjs-frontend/react-authFrontEnd/.env.local
+/reactjs-frontend/react-authFrontEnd/.env.development.local
+/reactjs-frontend/react-authFrontEnd/.env.test.local
+/reactjs-frontend/react-authFrontEnd/.env.production.local
+/reactjs-frontend/react-authFrontEnd/npm-debug.log*
+/reactjs-frontend/react-authFrontEnd/yarn-debug.log*
+/reactjs-frontend/react-authFrontEnd/yarn-error.log*
+
+
+
+################# BACK END ###########################
 # Ignore bundler config.
 /.bundle
 
