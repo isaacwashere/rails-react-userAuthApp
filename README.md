@@ -59,8 +59,10 @@ You must be in the correct folder for this to work
 
 ## Future Implementation(s)
 
+* Significant amount of refacoring work possible/needed/required
 * On the ReactJS Front End, improve code clarity readability using more modern understandings of React (i.e. Hooks)
-	- use of binding and props on the input require refactoring
+	- use of binding and props on many components can be improved
+  - code that handles how data is retrieved and sent into state needs to be streamlined
 * Set up a "Concurrency-like" React install so there is no need to start the server and frontend 
 * Place the logout button on the Dashboard component 
 * Implement this sign up, login, signout ability across another repo
