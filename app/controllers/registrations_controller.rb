@@ -4,7 +4,7 @@ class RegistrationsController < ApplicationController
 
 
   def create
-    user = User.create! (
+    user = User.create!(
       email: params['user']['email'],
       password: params['user']['password'],
       #rails requires that new registrations you have a pword confirmation
@@ -14,7 +14,7 @@ class RegistrationsController < ApplicationController
     if user 
       session[:user_id] = user.id 
       render json: {
-        status: created,
+        status: :created,
         user: user
       }
     else 
