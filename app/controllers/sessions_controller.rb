@@ -1,5 +1,8 @@
 class SessionsController < ApplicationController 
 
+  #must import the concern
+  include CurrentUserConcern
+
   #finding a specific user by passing the user and their email as a nested value
   def create 
     #finds whatever user that is in the system with the email you pass up
@@ -28,4 +31,30 @@ class SessionsController < ApplicationController
       }
     end 
   end
+
+  #going to add a concern because want to do is give the ability to see if there is a current user (very similar to devise)
+  #do it so that any method can check to see that a user is logged in or not 
+  def logged_in
+    #checks to see if a current user is available 
+    
+    if @current_user
+      render json: {
+        logged_in: true,
+        user: @current_user
+      }
+    else 
+      render json: {
+        logged_in: false
+      }
+    end 
+
+  end 
+
+  def logout
+    reset_session
+    render json: { status: 200, logged_out: true }
+  end 
+
+
+
 end 
