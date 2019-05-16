@@ -45,13 +45,12 @@ You must be in the correct folder for this to work
 | Technology/Function                | Purpose                                                                                                                                  |
 | ---------------------------------- |:----------------------------------------------------------------------------------------------------------------------------------------:|
 | bcrypt Gem                         | Salt User data                                                                                                                           |
-| rack-cors                          | Allows the ability to whitelist certain domains                                                                                          |
+| rack-cors Gem                      | Allows the ability to whitelist certain domains                                                                                          |
 | DevCamp JavaScript Project Builder | Use a default/boilerplate ReactJS app to setup a small FronE and test User Auth                                                          |
-| Axios                              | make POST Req(for user Login and Registration), GET Req(retrieve data to check Login status), DELETE Req(Logout a user) to Rails Backend |         
+| Axios                              | make POST Req(user Login and Registration), GET Req(check user Login status), DELETE Req(Logout a user) to Rails Backend |         
 
 * The Rails backend sets up the encryption of passwords and the password confirmation ability with digest for password confirmation and rack cors for setting up initial credential rules
 * React is simply the frontend UI that sends and receives from Rails and displays something as a result
-
 
 
 ## Future Implementation(s)
