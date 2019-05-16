@@ -6,6 +6,8 @@ This app is a React on Rails app that handles User Authentication. A user can se
 
 ## How to Run
 
+You must be in the correct folder for this to work
+
 #### Server/Ruby on Rails Backend
 
 1. Navigate to Terminal
@@ -60,3 +62,4 @@ This app is a React on Rails app that handles User Authentication. A user can se
 * Place the logout button on the Dashboard component 
 * Implement this sign up, login, signout ability across another repo
 * Style this visual monstrosity 
+* Fix the ReactJS Front End directory so that it is not so deeply nested 
