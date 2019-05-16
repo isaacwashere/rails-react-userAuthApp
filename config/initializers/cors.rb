@@ -14,11 +14,6 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
     #credentials true is what will allow the passing of headers back and forth, i.e. passing the cookie from FE app to BE app
     resource "*", headers: :any, methods: [:get, :post, :put, :patch, :delete, :options, :head], credentials: true
   end 
-
-
-
-
-
 end 
 
 
