@@ -5,6 +5,7 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 README.md
+Notes.txt
 
 # Ignore bundler config.
 /.bundle
