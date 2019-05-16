@@ -1,5 +1,5 @@
 
-# Rails API 
+# React with Rails User Authentication App 
 
 This app is a React on Rails app that handles User Authentication. A user can securely sign up, login and logout
 
